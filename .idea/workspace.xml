@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37f5b62-f642-4acd-8726-40007f02d1f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/complete/head.js" afterPath="$PROJECT_DIR$/examples/complete/head.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/complete/human.js" afterPath="$PROJECT_DIR$/examples/complete/human.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intermediate-angular-turing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="human.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/complete/human.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2605459">
-              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.55831265">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -424,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/complete/human.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2605459">
-          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.55831265">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>

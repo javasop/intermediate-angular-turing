@@ -12,8 +12,8 @@ app.controller('HumanController', function ($scope,humanData,handData,headData) 
     })
 });
 
-app.config(function(humanProvider){
-    humanProvider.setType("super human");
+app.config(function(humanDataProvider){
+    humanDataProvider.setType("super human");
 });
 
 app.service('humanData', function () {
