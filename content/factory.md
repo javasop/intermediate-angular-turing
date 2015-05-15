@@ -3,6 +3,7 @@
 * Similar to service
 * Except you have to return an object instead of binding to this.
 
+
 #### Defining Factories
 
 ```
@@ -20,6 +21,7 @@ return ["user1","user2"];
 
 })
 ```
+
 
 #### Injecting a factory
 

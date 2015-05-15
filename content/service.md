@@ -16,6 +16,7 @@ return ["user1","user2"];
 })
 ```
 
+
 #### Injecting a service
 
 * We can specify the dependency in the controller's function parameters 
