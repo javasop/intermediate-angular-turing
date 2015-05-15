@@ -5,29 +5,30 @@
 var app = angular.module('human', ['hand','leg','head']);
 
 
-app.controller('HumanController', function ($scope,human,handData) {
-    console.log(handData)
+app.controller('HumanController', function ($scope,humanData,handData,headData) {
     handData.fingers = 6
-    console.log(human);
+    headData.get().success(function(hData){
+        console.log(hData);
+    })
 });
 
 app.config(function(humanProvider){
     humanProvider.setType("super human");
 });
 
-app.service('humanStat', function () {
+app.service('humanData', function () {
     this.name = "steph";
     this.age = 25;
     this.height = 6;
 });
-app.factory('humanStat', function () {
+app.factory('humanData', function () {
     return {
         name: "Steph",
         age:25,
         height:6
     };
 });
-app.provider("human", function () {
+app.provider("humanData", function () {
     var type;
     //configuration functions, called within app.config
     this.setType = function(t){

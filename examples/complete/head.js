@@ -7,8 +7,8 @@ var head = angular.module('head', []);
 head.controller('HeadController', function ($scope) {
 
 });
-head.service('HeadData', function ($scope,$http) {
-    this.getHeadData = function(){
+head.service('headData', function ($http) {
+    this.get = function(){
         return $http.get("../dummy/head.json")
     }
 });
