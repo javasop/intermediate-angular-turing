@@ -8,24 +8,30 @@
 #### Defining Providers
 
 ```
-app.provider("game", function () {
-  var type;
-  return {
-    setType: function (value) {
-      type = value;
-    },
-    $get: function () {
-      return {
-        title: type + "Craft"
-      };
+app.provider("humanData", function () {
+    var type;
+    //configuration functions, called within app.config
+    this.setType = function(t){
+        type = t;
+    };
+    this.$get = function(){
+        return {
+            name: "Steph",
+            age:25,
+            height:6,
+            type:type
+        };
     }
-  };
 });
 ```
-
 
 #### Injecting a provider
 
 * We have two places to inject the provider
     * in the module config where the provider was loaded
     * in any of the other services, directives, factories, controllers
+```
+app.config(function(humanDataProvider){
+    humanDataProvider.setType("super human");
+});
+```
