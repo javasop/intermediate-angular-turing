@@ -3,6 +3,7 @@
 * Or Model in Rails
 * Creates on Object for the whole app.
 
+
 #### Defining Services
 
 ```
