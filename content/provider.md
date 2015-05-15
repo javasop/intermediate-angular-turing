@@ -25,6 +25,7 @@ app.provider("humanData", function () {
 });
 ```
 
+
 #### Injecting a provider
 
 * We have two places to inject the provider
