@@ -31,7 +31,8 @@ app.provider("humanData", function () {
 * We have two places to inject the provider
     * in the module config where the provider was loaded
     * in any of the other services, directives, factories, controllers
-```
+    
+```javascript
 app.config(function(humanDataProvider){
     humanDataProvider.setType("super human");
 });
